@@ -67,7 +67,7 @@ extension UIButton {
     
     // MARK:- State Tracking
     private func observeState() {
-        self.backgroundColor = self.backgroundColor(forState:self.state)
+        self.backgroundColor = self.backgroundColor(for:self.state)
     }
     
     
